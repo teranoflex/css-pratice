@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .main, .footer {
+    display: flex;
+    justify-content: center; /* Центрування по горизонталі, може бути змінено для конкретних блоків */
+    align-items: center; /* Центрування по вертикалі */
+    width: 100%;
+}
+
+.header {
+    height: 30vh;
+    justify-content: flex-start; /* Горизонтально зліва */
+    background-color: lightblue; /* Задайте колір за вашим бажанням */
+}
+
+.main {
+    height: 40vh;
+    justify-content: center; /* Горизонтально по центру */
+    background-color: lightgreen; /* Задайте колір за вашим бажанням */
+}
+
+.footer {
+    height: 30vh;
+    justify-content: flex-end; /* Горизонтально праворуч */
+    background-color: lightcoral; /* Задайте колір за вашим бажанням */
+}
+
+.text {
+    font-size: 20px; /* Обов'язковий розмір */
+    color: #333; /* Обов'язковий колір */
+    text-align: center;
+}
